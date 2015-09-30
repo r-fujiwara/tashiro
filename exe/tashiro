@@ -1,3 +1,7 @@
 #!/usr/bin/env ruby
 
+require "bundler/setup"
 require "tashiro"
+require "tashiro/cli"
+
+Tashiro::CLI.start(ARGV)
