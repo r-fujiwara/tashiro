@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{famous peeping tom}
   spec.description   = %q{famous peeping tom}
-  spec.homepage      = "famous peeping tom"
+  spec.homepage      = "http://eiga.com/movie/14352/"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
