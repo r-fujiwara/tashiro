@@ -11,15 +11,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{famous peeping tom}
   spec.description   = %q{famous peeping tom}
-  spec.homepage      = "http://eiga.com/movie/14352/"
+  spec.homepage      = "http://google.com"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://eiga.com/movie/14352/"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
+  #if spec.respond_to?(:metadata)
+  #  spec.metadata['allowed_push_host'] = "http://eiga.com/movie/14352/"
+  #else
+  #  raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
+  #end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
